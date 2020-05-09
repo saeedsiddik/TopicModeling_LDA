@@ -1,0 +1,3 @@
+P: jupyter notebook failed to start AttributeError: type object 'IOLoop' has no attribute 'initialized'
+
+S: sudo -H pip3 install --upgrade pyzmq notebook 

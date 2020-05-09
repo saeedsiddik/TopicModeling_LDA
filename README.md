@@ -12,27 +12,44 @@ Python3
 
 # Library Packages: 
 For Data Preprocessing 
+
 import re
+
 import numpy as np
+
 import pandas as pd
+
 from pprint import pprint
 
+
 For Gensim
+
 import gensim
+
 import gensim.corpora as corpora
+
 from gensim.utils import simple_preprocess
+
 from gensim.models import CoherenceModel
 
+
 For spacy for lemmatization
+
 import spacy
 
+
 For Plotting tools
+
 import pyLDAvis
+
 import pyLDAvis.gensim  # don't skip this
+
 import matplotlib.pyplot as plt
+
 
 For Spacial Install Command:
 > pip3 install spacy
+
 > sudo python3 -m spacy download en
 
 Supporting Source: 
